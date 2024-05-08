@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f1f2f4;
+}
+header {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 12px 28px;
+    margin-bottom: 15px;
+}
+.logo_1 {
+    background-color: #fff;
+    width: 160px;
+    height: 40px;
+}
+.logo_container {
+    background-color: #fff;
+    margin-left: 4%;
+    margin-right: 35px;
+}
+.action {
+    background-color: #fff;
+    margin-right: -2%;
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+.action_container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+}
+.main_head {
+    background-color: #fff;
+    width: 693px;
+    height: 43px;
+    display: flex;
+    width: 100%;
+}
+.search {
+    background-color: #fff;
+    display: flex;
+    background-color: #ffffff00;
+    flex-grow: 1;
+    align-items: center;
+    
+}
+.search_icon {
+    background-color: #fff;
+    display: flex;
+    box-sizing: content-box ;
+    height: 20px;
+    padding: 10px;
+    background-color: hwb(0 95% 5%);
+    font-weight: 300;
+    border-radius: 9px 0 0 9px;
+}
+.search_bar {
+    background-color: #fff;
+    flex-grow: 1; /*Yaha pata nhi kya ho raha h*/
+    height: 40px;
+    border: 0;
+    border-radius: 0 9px 9px 0;
+    background-color: hwb(0 95% 5%);
+}
+/*Now 2nd Hading start*/
+.item_head {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    z-index: 10000;
+    color: #111112;
+    min-height: 126px;
+    align-items: center;
+    margin-top: 16px;
+}
+.item_l {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+}
+.item_name {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Here the banner css start */
+.main_banner {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sbi_banner {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Deals_smart {
+        display: flex;
+        background-color: #ffffff;
+        border: 0.1px solid 0;
+        align-items: center;
+        margin: 50px 0 20px 5px;
+        height: 25;
+        font-size: 0.8cm;
+        max-width: 100%;
+}
+
